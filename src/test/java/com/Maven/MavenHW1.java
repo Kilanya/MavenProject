@@ -14,7 +14,7 @@ import org.testng.Assert;
 	          driver.get(url);
 	          String title = driver.getTitle();
 
-//	          Assert.assertEquals("Google", title);
+	          Assert.assertEquals("Google", title);
 	          
 }
 	}
